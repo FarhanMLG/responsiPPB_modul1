@@ -18,11 +18,9 @@ Tabel: `loans` (Supabase / PostgreSQL)
 
 ## 🚀 Panduan Instalasi & Cara Menjalankan Lokal
 
-Panduan ini ditujukan bagi evaluator (asprak) yang ingin menjalankan proyek ini secara lokal.
-
 1. **Clone repository ini**
    ```bash
-   git clone https://github.com/[LINK-REPO-GITHUB-KAMU]
+   git clone https://github.com/FarhanMLG/responsiPPB_modul1
    cd perpustakaan-api
    ```
 
@@ -32,10 +30,10 @@ Panduan ini ditujukan bagi evaluator (asprak) yang ingin menjalankan proyek ini 
    ```
 
 3. **Konfigurasi Environment Variables**
-   Buat file bernama `.env` di root folder proyek, lalu masukkan kredensial Supabase. (Catatan untuk asprak: silakan gunakan kredensial Supabase penguji, atau hubungi praktikan untuk test-key):
+   Buat file bernama `.env` di root folder proyek, lalu masukkan kredensial Supabase:
    ```env
-   SUPABASE_URL=https://your-project.supabase.co
-   SUPABASE_KEY=your-anon-public-key
+   SUPABASE_URL=https://chpthkjmeuliipqbuqsx.supabase.co
+   SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNocHRoa2ptZXVsaWlwcWJ1cXN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE2Mjg2NTQsImV4cCI6MjEwNzIwNDY1NH0.qGc2fE5s3GwY9DOLAfbcs2xHLLqwGOi9krUZaIIMlTY
    PORT=3000
    ```
 
@@ -144,4 +142,4 @@ Panduan ini ditujukan bagi evaluator (asprak) yang ingin menjalankan proyek ini 
 
 ## 🌐 Link Deployment Vercel
 API dapat diakses dan diuji secara publik melalui Base URL berikut:
-👉 **[https://[LINK-VERCEL-KAMU].vercel.app](https://[LINK-VERCEL-KAMU].vercel.app)**
+👉 **[https://responsi-ppb-modul1-dusky.vercel.app/](https://responsi-ppb-modul1-dusky.vercel.app/)**
